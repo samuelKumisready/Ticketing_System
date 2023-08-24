@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.transparentbg{
+    @apply bg-transparent
+}
+.solidbg{
+    @apply bg-nav_bg
+}
+h3{
+    font-family: 'Bungee Shade', cursive;
+}
+
+/* Firefox .customscrollbar*/
+.customscrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #4A68FF #DFE9EB;
+  }
+  
+  /* Chrome, Edge and Safari .customscrollbar*/
+  .customscrollbar::-webkit-scrollbar {
+    width: 6px;
+    width: 6px;
+  }
+  .customscrollbar::-webkit-scrollbar-track {
+    border-radius: 4px;
+    background-color: #DFE9EB;
+  }
+  
+  .customscrollbar::-webkit-scrollbar-track:hover {
+    background-color: #B8C0C2;
+  }
+  
+  .customscrollbar::-webkit-scrollbar-track:active {
+    background-color: #B8C0C2;
+  }
+  
+  .customscrollbar::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: #4A68FF;
+  }
+  
+  .customscrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #4A68FF;
+  }
+  
+  .customscrollbar::-webkit-scrollbar-thumb:active {
+    background-color: #4A68FF;
+  }
+  
+
+  
+  .customscrollbar2 {
+    scrollbar-width: thin;
+    scrollbar-color: white #DFE9EB;
+  }
+  
+  /* Chrome, Edge and Safari .customscrollbar*/
+  .customscrollbar2::-webkit-scrollbar {
+    width: 6px;
+    width: 6px;
+  }
+  .customscrollbar2::-webkit-scrollbar-track {
+    border-radius: 4px;
+    background-color: white;
+  }
+  
+  .customscrollbar2::-webkit-scrollbar-track:hover {
+    background-color: white;
+  }
+  
+  .customscrollbar2::-webkit-scrollbar-track:active {
+    background-color: white;
+  }
+  
+  .customscrollbar2::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: #6259ca;
+  }
+  
+  .customscrollbar2::-webkit-scrollbar-thumb:hover {
+    background-color: #6259ca;
+  }
+  
+  .customscrollbar2::-webkit-scrollbar-thumb:active {
+    background-color: #6259ca;
+  }
